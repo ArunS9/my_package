@@ -2,8 +2,8 @@ Build your ROS 2 workspace:
 
 bash
 
-cd /path/to/your/ros2_workspace
-colcon build
+   cd /path/to/your/ros2_workspace
+   colcon build
 
 Usage
 
@@ -13,7 +13,7 @@ Launch the bot_world.launch.py file:
 
 bash
 
-ros2 launch bot_world bot_world.launch.py
+   ros2 launch bot_world bot_world.launch.py
 
 This will start Gazebo with the provided world file (my_world.world) and spawn the robot at the center of the world.
 
